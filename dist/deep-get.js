@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t(e.flattenObject={})}(this,function(e){"use strict";e.deepGet=function(e,t,n){for(void 0===n&&(n=".");;){if(null==e)return e;var f=t.indexOf(n);if(f<0)return e[t];e=e[t.slice(0,f)],t=t.slice(f+1)}}});
+//# sourceMappingURL=deep-get.js.map
