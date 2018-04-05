@@ -5,7 +5,7 @@ export default {
   output: {
     file: 'dist/deep-get.js',
     format: 'umd',
-    name: 'flattenObject',
+    name: 'optimizatedDeepGet',
     sourceMap: true,
   },
   plugins: [typescript()],
